@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Javascript Assessment</title>
+        <link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="humans.txt">
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="vendor/requirejs/require.js"></script>
+        <script data-main="scripts/main" src="js/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Closest Guess</h1>
+            <p>Guess the which image is closest to you!</p>
+            <p>Try your guess on Google Maps, Instagram, or Flickr.</p>
+        </header>
+        <div id="service-toggle">
+            <a href="#" id="googlemaps"><img src="images/googlemaps.png" alt="Google Maps"></a>
+            <a href="#" id="instagram"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#" id="flickr"><img src="images/flickr.png" alt="Flickr"></a>
+        </div>
+        <div id="reset-game-toggle">
+            <button type="button" id="reset_game" class="btn btn-default">
+                Reset Game
+            </button>
+        </div>
+        <article id="image_panel">
+            <ul id="image_list">
+            </ul>
+        </article>
+    </body>
+</html>

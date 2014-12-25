@@ -1,0 +1,20 @@
+{
+  "name": "javascript-assessment",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap" : "latest",
+    "requirejs" : "latest"
+  },
+  "install" : {
+    "path" : "vendor",
+    "sources" : {
+      "jquery" : "bower_components/jquery/dist/jquery.min.js",
+      "bootstrap": [ "bower_components/bootstrap/dist/css/bootstrap.css",
+          "bower_components/bootstrap/dist/fonts/*.*",
+          "bower_components/bootstrap/dist/js/bootstrap.min.js"
+        ]
+    }
+  },
+  "private": true
+}
